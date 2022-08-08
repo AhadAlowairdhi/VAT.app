@@ -28,8 +28,8 @@ class MainActivity : AppCompatActivity() {
 
         val vatPercentage = when(selectedID){
             R.id.rbVat10 -> 0.10
-            R.id.rbVat15 -> 0.10
-            else -> 0.10
+            R.id.rbVat15 -> 0.15
+            else -> 0.20
         } // End when
 
         var vat = vatPercentage * cost
